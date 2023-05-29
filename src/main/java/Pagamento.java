@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface Pagamento {
+public interface Pagamento {
+    float calcularPagamento(float valor, int parcela);
 }
